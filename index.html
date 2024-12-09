@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>النشرة التفاعلية للتقويم الذاتي المدرسي</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      background-color: #6a5acd;
+      padding: 20px;
+      color: white; /* تم تعديل لون النص */
+      box-shadow: 0 8px 8px rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+      color: black; /* النص باللون الأسود */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+      font-weight: bold;
+    }
+
+    .logos {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .logos img {
+      width: 100px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.20);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .logos img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 1.8em;
+      margin: 20px 0;
+      color: #4b0082;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .videos, .images {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .videos video, .images img {
+      width: 45%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .videos video:hover, .images img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #6a5acd;
+      color: white;
+      font-size: 1em;
+      margin-top: 20px;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logos">
+    <img src="school-logo.png" alt="شعار المدرسة">
+    <img src="education-logo.png" alt="شعار الوزارة">
+  </div>
+  <h1>النشرة التفاعلية للتقويم الذاتي المدرسي</h1>
+  <p>
+    إعداد المعلم:<br>
+    <span style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">صلاح خليفة الفالح</span><br>
+    مدير المدرسة:<br>
+    <span style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">حمد فريح المعيقل</span>
+  </p>
+</header>
+
+<div class="container">
+
+  <h2 class="section-title">مرئيات</h2>
+  <div class="videos">
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+      المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+    </video>
+    <video controls>
+      <source src="video2.mp4" type="video/mp4">
+      المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+    </video>
+  </div>
+
+  <h2 class="section-title">منصة X</h2>
+  <div class="images">
+    <img src="image1.jpg" alt="صورة 1">
+    <img src="image2.jpg" alt="صورة 2">
+  </div>
+
+  <h2 class="section-title">ورشة عمل التقويم الذاتي</h2>
+  <div class="videos">
+    <video controls>
+      <source src="video3.mp4" type="video/mp4">
+      المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+    </video>
+    <video controls>
+      <source src="video4.mp4" type="video/mp4">
+      المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+    </video>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2024 النشرة التفاعلية. مدرسة ثانوية اليرموك
+</footer>
+
+</body>
+</html>
